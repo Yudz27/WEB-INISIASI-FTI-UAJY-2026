@@ -12,12 +12,17 @@ document.addEventListener("DOMContentLoaded", () => {
       margin: 0;
       padding: 0;
       background-color: #020617;
+      background-image: url("img/error.png");
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      overscroll-behavior: none;
     }
 
     body {
       min-height: 100vh;
       overflow-x: hidden;
-      overscroll-behavior-y: none;
     }
 
     #footer-container {
@@ -41,12 +46,24 @@ document.addEventListener("DOMContentLoaded", () => {
     body.style.margin = "0";
     body.style.padding = "0";
     body.style.backgroundColor = "#020617";
+    body.style.backgroundImage = 'url("img/error.png")';
+    body.style.backgroundPosition = "top center";
+    body.style.backgroundRepeat = "no-repeat";
+    body.style.backgroundSize = "cover";
+    body.style.backgroundAttachment = "fixed";
+    body.style.overscrollBehavior = "none";
   }
 
   if (html) {
     html.style.margin = "0";
     html.style.padding = "0";
     html.style.backgroundColor = "#020617";
+    html.style.backgroundImage = 'url("img/error.png")';
+    html.style.backgroundPosition = "top center";
+    html.style.backgroundRepeat = "no-repeat";
+    html.style.backgroundSize = "cover";
+    html.style.backgroundAttachment = "fixed";
+    html.style.overscrollBehavior = "none";
   }
 
   const loadingScreen = document.createElement("div");
