@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     body {
       min-height: 100vh;
       overflow-x: hidden;
+      overscroll-behavior-y: none;
     }
 
     #footer-container {
